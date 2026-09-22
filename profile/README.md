@@ -13,8 +13,8 @@ it is to stop needing them, by mapping the controller directly to shortcuts,
 commands and actions.
 
 - **[deckery](../../../deckery)** — the context-aware input stack
-- **[deckery-spatnav](../../../deckery-spatnav)** — spatial navigation overlay
-  for KDE Plasma, so a stick can move between on-screen elements
+- **[deckery-spatnav](../../../deckery-spatnav)** *(alpha)* — spatial navigation
+  overlay for KDE Plasma, so a stick can move between on-screen elements
 - **[deckery-hud](../../../deckery-hud)** — transparent overlay showing what
   the controller currently does
 - **[makima-deckery](../../../makima-deckery)**, **[evdev](../../../evdev)** —
