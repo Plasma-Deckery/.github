@@ -6,17 +6,22 @@ a time.
 
 ## Deckery — input
 
-An input remapper that knows what you are doing. It is aware of the focused
-application and of the desktop environment, so the same button means different
-things in different places. The point is not to memorise keyboard shortcuts —
-it is to stop needing them, by mapping the controller directly to shortcuts,
-commands and actions.
+The Steam Deck is a capable handheld computer, but in desktop mode it is
+awkward to use without a physical keyboard. The mouse gets you some of the way;
+real desktop efficiency runs on shortcuts, and those are not available when you
+are away from a desk.
 
-- **[deckery](../../../deckery)** — the context-aware input stack
-- **[deckery-spatnav](../../../deckery-spatnav)** *(alpha)* — spatial navigation
-  overlay for KDE Plasma, so a stick can move between on-screen elements
-- **[deckery-hud](../../../deckery-hud)** — transparent overlay showing what
-  the controller currently does
+Deckery remaps controller buttons to keyboard keys, shortcuts and actions —
+with per-app layouts, modifier layers, and a live overlay that shows exactly
+what every button does at any given moment. The goal is full desktop
+productivity with just the controller in hand, and independence from Steam:
+every button, trigger and trackpad usable without the Steam process running in
+the background. It also ships opinionated KDE Plasma 6 configuration that
+adapts the desktop to handheld use.
+
+- **[deckery](../../../deckery)** — the input stack, configuration and docs
+- **[deckery-hud](../../../deckery-hud)** — the live overlay showing what the
+  controller currently does
 - **[makima-deckery](../../../makima-deckery)**, **[evdev](../../../evdev)** —
   forks of the input layers underneath
 
@@ -32,6 +37,8 @@ covering sudo, polkit and the lock screen without a keyboard.
 
 Smaller KDE and Steam Deck pieces that do not need a project of their own.
 
+- **[deckery-spatnav](../../../deckery-spatnav)** *(alpha)* — spatial navigation
+  overlay for KDE Plasma, so a stick can move between on-screen elements
 - **[tinkergame](../../../tinkergame)** — fork of the Steam game-launch wrapper,
   with automatic Non-Steam artwork
 - **[kyanite](../../../kyanite)** — dynamic workspaces for Plasma 6
