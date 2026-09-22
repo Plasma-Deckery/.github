@@ -19,10 +19,10 @@ every button, trigger and trackpad usable without the Steam process running in
 the background. It also ships opinionated KDE Plasma 6 configuration that
 adapts the desktop to handheld use.
 
-- **[deckery](../../../deckery)** — the input stack, configuration and docs
-- **[deckery-hud](../../../deckery-hud)** — the live overlay showing what the
+- **[deckery](https://github.com/Plasma-Deckery/deckery)** — the input stack, configuration and docs
+- **[deckery-hud](https://github.com/Plasma-Deckery/deckery-hud)** — the live overlay showing what the
   controller currently does
-- **[makima-deckery](../../../makima-deckery)**, **[evdev](../../../evdev)** —
+- **[makima-deckery](https://github.com/Plasma-Deckery/makima-deckery)**, **[evdev](https://github.com/Plasma-Deckery/evdev)** —
   forks of the input layers underneath
 
 ## Deckery Auth — authentication *(beta)*
@@ -31,16 +31,16 @@ Typing a sudo password on a handheld is miserable. This authenticates you with
 the controller instead: a PAM module, an auth daemon and an input reader,
 covering sudo, polkit and the lock screen without a keyboard.
 
-- **[deckery-auth](../../../deckery-auth)**
+- **[deckery-auth](https://github.com/Plasma-Deckery/deckery-auth)**
 
 ## Tools
 
 Smaller KDE and Steam Deck pieces that do not need a project of their own.
 
-- **[deckery-spatnav](../../../deckery-spatnav)** *(alpha)* — spatial navigation
+- **[deckery-spatnav](https://github.com/Plasma-Deckery/deckery-spatnav)** *(alpha)* — spatial navigation
   overlay for KDE Plasma, so a stick can move between on-screen elements
-- **[tinkergame](../../../tinkergame)** — fork of the Steam game-launch wrapper,
+- **[tinkergame](https://github.com/Plasma-Deckery/tinkergame)** — fork of the Steam game-launch wrapper,
   with automatic Non-Steam artwork
-- **[kyanite](../../../kyanite)** — dynamic workspaces for Plasma 6
-- **[maximized-window-gaps](../../../maximized-window-gaps)** — spacing around
+- **[kyanite](https://github.com/Plasma-Deckery/kyanite)** — dynamic workspaces for Plasma 6
+- **[maximized-window-gaps](https://github.com/Plasma-Deckery/maximized-window-gaps)** — spacing around
   maximized windows
